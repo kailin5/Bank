@@ -1,0 +1,9 @@
+1,junior,myAddress,2018-05-22,1133.0,0.0,1,false
+16628206,createJunior,eclipse,2014-02-02,0.0,0.0,11111111,false
+11314382,l,j,2018-01-01,0.0,0.0,11111111,false
+18923738,sb,eclipse,2014-01-01,0.0,0.0,12345678,false
+2,current,myAddress,2018-05-22,-499.99,0.0,1,false
+10351220,CurrentCreate,eclipase,1990-01-01,0.0,0.0,11111111,false
+18889558,sb,eclipse,1997-01-01,0.0,0.0,11111111,false
+3,saving,myAddress,2018-05-22,5300.0,0.0,1,false
+16034551,savingac,eclipse,1997-01-01,9000.0,0.0,11111111,false

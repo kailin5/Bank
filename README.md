@@ -1,21 +1,17 @@
-# Bank
+# Simple Bank System
 This is the bank system I wrote in my Software Engineering lab
 Provide command line interaction as a real world bank system
 
-# Scenario and system requirements
+## Scenario and system requirements
 
 A simple banking system is to be developed with the intention of providing a generic, reusable system from which to develop more realistic systems. The requirements of the system are to offer a number of different accounts, each of which provides specific services to the customer. The following are all types of accounts are supported by the system:
-
-## Saver account
-
-## Junior account
-
-## Current account
-
+- Saver account
+- Junior account
+- Current account
 When a customer joins the bank, they are required choose an account type to open, and must credit it with a minimum figure. A customer may open more than one type of account.
 
 
-# Basic Function:
+## Basic Function:
 
 1: Create a new account (SavingAccount, JuniorAccount, CreditAccount)
 2: Deposit money
@@ -24,18 +20,14 @@ When a customer joins the bank, they are required choose an account type to open
 5: Close account
 6: suspend account
 
-# Basic Function Description
+## Basic Function Description
 The following core functions are to be supported by the system:,
 
 1. Open Account: In order to open an account, the customer must provide the following information:
-
-name
-
-address
-
-date of birth
-
-type of account to be opened
+- name
+- address
+- date of birth
+- type of account to be opened
 
 Only customers under the age of 16 may open a Junior account. To determine the credit status of a customer, the bank sends the customer's details to a Credit Agency, who then carries out a credit search. Provided that the customer has a satisfactory credit history, a new account is opened. Each account has a unique account number. A customer is also issued a separate personal identification number (PIN) for that account.
 

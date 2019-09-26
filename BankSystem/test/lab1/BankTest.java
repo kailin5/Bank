@@ -12,13 +12,11 @@ import junit.framework.TestCase;
 public class BankTest extends TestCase{
 
 	protected void setUp() throws Exception{
-		System.out.println("发送测试前");	
 		super.setUp();
 	}
 	
 	public void testdifferentDays()
 	{
-		System.out.println("发送测试中");
 		Date date1=new Date(118,1,1);
 		Date date2=new Date(118,1,15);
 		int dif=BankControl.differentDays(date1, date2);
@@ -53,7 +51,6 @@ public class BankTest extends TestCase{
 	}
 	
 	protected void tearDown() throws Exception{
-		System.out.println("发送测试后");
 		super.tearDown();
 	}
 }
